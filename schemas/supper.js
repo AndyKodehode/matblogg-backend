@@ -20,12 +20,10 @@ export default{
             name: 'ingredienser',
             title: 'ingredienser',
             type: 'array',
-            of:[
-                {name:' ingrediens',
-                 title: 'Ingrediens',
-                 type:'string'}
-            ]
-          },
+            of:[{type:'string'}]
+                },
+            
+          
 
           {
             name: 'fremgangsmetode',

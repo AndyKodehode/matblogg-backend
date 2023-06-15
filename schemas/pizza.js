@@ -17,7 +17,7 @@ export default{
           },
 
           {
-            name: 'ingredisenser',
+            name: 'ingredienser',
             title: 'ingredienser',
             type: 'array',
             of:[
