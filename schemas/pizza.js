@@ -1,11 +1,12 @@
 export default{
-    name: 'oppskrifter', 
-    title: 'Oppskrifter',
+    name: 'pizza', 
+    title: 'Pizza',
     type: 'document',
-    fields:[
-        {name:'oppskrift', 
-         title: 'Oppskrift',
-         type: 'string' },
+    fields: [
+      {name: 'oppskrift', 
+       title: 'Oppskrift',
+       type: 'string',
+      },
 
          {name: 'image',
           title: 'Image',
@@ -30,9 +31,14 @@ export default{
             name: 'fremgangsmetode',
             title: 'Fremgangsmetode',
             type: 'string'
-          }
-
+          }, 
+          {
+           name: 'slug',
+           title: 'Slug',
+           type: 'slug',
+           options:{
+            source:'oppskrift'
+           } }
         
-      
-    ]
-}
+        ]
+      }

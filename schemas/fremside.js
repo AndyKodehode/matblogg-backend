@@ -15,10 +15,14 @@ export default{
           title: 'Bilder',
           type: 'array',
           of:[
+            
+
             {name: 'bilde',
              bilde:'Bilde',
              type: 'image',
              options: {
+                title: 'navn',
+                name: 'navn',
                 hotspot: true,
               }
             }
@@ -27,11 +31,22 @@ export default{
           {
             name:'slug',
             title: 'Slug',
-            type: 'slug',
-            // options: {
-            //   source: 'name',
-            //   maxLength: 100,
-            // },
+            type: 'slug'
+          
             }
     ]
 }
+
+
+
+// {name: 'supper',
+//              title: 'Supper', 
+//              type: 'string'},
+
+//              {name: 'pizza', 
+//               title: 'Pizza',
+//               type: 'string'},
+
+//               {name:'restemiddag',
+//                title: 'restemiddag',
+//                type: 'string'},

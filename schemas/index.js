@@ -1,4 +1,5 @@
-import oppskrifter from "./oppskrifter"
+import supper from "./supper"
 import fremside from "./fremside"
+import pizza from "./pizza"
 
-export const schemaTypes = [oppskrifter, fremside]
+export const schemaTypes = [supper, fremside, pizza]
